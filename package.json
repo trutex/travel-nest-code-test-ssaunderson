@@ -1,0 +1,23 @@
+{
+  "name": "travel-nest-code-test-ssaunderson",
+  "version": "1.0.0",
+  "description": "Code test for Travel Nest from Stuart Saunderson",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "lint": "eslint *.js"
+  },
+  "author": "Stuart Saunderson",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15"
+  }
+}
